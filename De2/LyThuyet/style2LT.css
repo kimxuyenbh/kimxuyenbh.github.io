@@ -1,0 +1,132 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+a {
+	color: #0a6395;
+	text-decoration: none;
+}
+#main {
+	background:#e6f3fb;
+	width:420px;
+	margin: auto;
+}
+#round {
+	width:400px;
+	margin: auto;
+}
+.title {
+	font-size:12px;
+	font-weight: bold;
+	border-bottom: 2px solid #ffa500;
+}
+#blogroll .img-b {
+	padding-bottom: 1px;
+	background: #FFFFFF;
+}
+#blogroll .post-b {	
+	padding: 10px;
+} 
+#blogroll .right-b {
+	line-height: 14px;
+	margin-left: 20px;
+	width: 150px;
+	float: left;
+}
+#blogroll .right-b a {
+	color:#0a6395;
+	text-decoration: none;
+}
+#blogroll .left-b-img {
+	float: left;
+	width: 180px;
+	border: 1px solid #c9c9c9;
+	padding: 1px;
+}
+#blogroll .list {
+	margin-top: 100px;
+}
+#blogroll ul li {
+	padding-left: 10px;
+	margin-bottom: 2px;
+	background-color: #faf0bf;
+	line-height: 20px;
+}
+#blogroll ul {
+	padding: 0px;
+	list-style: none;
+}
+#horos {
+	margin-bottom: 20px;
+}
+#horos .img-h {
+	padding-bottom: 1px;
+}
+#horos .post-h {
+	background: #FFFFFF;
+	padding: 10px;
+}
+#horos .left-h-img {
+	float: left;
+	width: 120px;
+}
+#horos .right-h {
+	margin: 10px 20px 20px 0px;
+	line-height: 14px;
+	width: 330px;
+	float: left:
+}
+#horos .date {
+	color: #808080;
+	padding-bottom:10px;
+}
+#horos .bottom-h {
+	margin-top:1px;
+	background: #f4f4ec;
+	padding-bottom: 50px;
+}
+#horos .bottom-left {
+	padding-top: 10px;
+	float: left;
+	padding-left: 10px;
+}
+#horos .bottom-right {
+	float: right;
+}
+#horos .bottom-img {
+	width: 80px;
+}
+#get .post-get {
+	height: 118px;
+	margin-top: 1px;
+	background: #FFFFFF;
+}
+#get .left-get {
+	float: left;
+	padding: 20px 0px 0px 20px;
+	width: 220px;	
+}
+#get .right-get {
+	float: right;
+}
+#get .img-g {
+	width:120px;
+}
+hr {
+	background: #cccccc;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+#compe .title-compe {
+	font-weight: bold;
+}
+#compe .text {
+	color: #0a6395;
+	background: #FFFFFF;
+	padding: 10px 0px 10px 10px;
+	border: 1px solid #dadada;
+}
