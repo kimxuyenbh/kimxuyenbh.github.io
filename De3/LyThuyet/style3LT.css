@@ -1,0 +1,88 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-family:Arial;
+	font-size:0.6875em;
+	color: #787683;
+	background: #000;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#main {
+	width: 800px;
+	margin: 20px 0px 0px 100px;
+}
+#main-left {
+	padding-right: 20px;
+	float: left;
+	width: 500px;
+}
+#main-right {
+	background:  #232326;
+	float: left;
+	width: 250px;
+	height: 390px;
+}
+.title {
+	padding-bottom: 20px;
+}
+#post-1 {
+	margin-bottom: 100px;
+}
+#post-1 .post-content-1 {
+	padding: 1px;
+	margin-bottom: 10px;
+}
+#post-1 .img-cont-1 {
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+#post-1 .content-right {
+	padding-left: 20px;
+	width: 250px;
+	padding-right: 20px;
+	float: left;
+}
+.line {
+	padding-top: 20px;
+	border-bottom: 1px dotted #787683;
+	margin-bottom: 20px;
+}
+.img-info {
+	padding-right: 5px;	
+}
+#post-2 .content-pc {
+	margin-bottom: 10px;
+}
+#post-2 .content-2-left {
+	float: left;
+	width: 225px;
+}
+#post-2 .content-2-right {
+	padding-right: 30px;
+	float: lef
+	width: 235px;
+}
+#post-2 li {
+	line-height: 25px;
+	text-decoration: underline;
+}
+#post-2 ul {
+	list-style: none;
+}
+#post-2 .img-li {
+	padding-right: 5px;
+}
+#post-3 {
+	margin: 25px;
+}
+#post-3 .post-3-line {
+	margin-top: 80px;
+	border-top: 1px solid #787683;
+	padding-bottom: 20px;
+}
