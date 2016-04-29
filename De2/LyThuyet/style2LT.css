@@ -12,14 +12,15 @@ a {
 }
 #main {
 	background:#e6f3fb;
-	width:420px;
+	width:330px;
 	margin: auto;
 }
 #round {
-	width:400px;
+	width:310px;
 	margin: auto;
 }
 .title {
+	padding-top: 5px;
 	font-size:12px;
 	font-weight: bold;
 	border-bottom: 2px solid #ffa500;
@@ -34,7 +35,7 @@ a {
 #blogroll .right-b {
 	line-height: 14px;
 	margin-left: 20px;
-	width: 150px;
+	width: 95px;
 	float: left;
 }
 #blogroll .right-b a {
@@ -43,12 +44,12 @@ a {
 }
 #blogroll .left-b-img {
 	float: left;
-	width: 180px;
+	width: 160px;
 	border: 1px solid #c9c9c9;
 	padding: 1px;
 }
 #blogroll .list {
-	margin-top: 100px;
+	margin-top: 90px;
 }
 #blogroll ul li {
 	padding-left: 10px;
@@ -70,14 +71,19 @@ a {
 	background: #FFFFFF;
 	padding: 10px;
 }
-#horos .left-h-img {
+#horos .left-h {
 	float: left;
+	height: 150px;
+}
+#horos .left-h-img {
+	padding-right: 10px;
+	height: 110px;
 	width: 120px;
 }
 #horos .right-h {
-	margin: 10px 20px 20px 0px;
+	margin: 10px 20px 10px 0px;
 	line-height: 14px;
-	width: 330px;
+	width: 280px;
 	float: left:
 }
 #horos .date {
@@ -85,7 +91,7 @@ a {
 	padding-bottom:10px;
 }
 #horos .bottom-h {
-	margin-top:1px;
+	margin:1px 0px 0px 0px;
 	background: #f4f4ec;
 	padding-bottom: 50px;
 }
@@ -108,7 +114,7 @@ a {
 #get .left-get {
 	float: left;
 	padding: 20px 0px 0px 20px;
-	width: 220px;	
+	width:150px;	
 }
 #get .right-get {
 	float: right;
@@ -120,6 +126,9 @@ hr {
 	background: #cccccc;
 	margin-top: 10px;
 	margin-bottom: 5px;
+}
+#compe {
+	padding-bottom: 10px;
 }
 #compe .title-compe {
 	font-weight: bold;

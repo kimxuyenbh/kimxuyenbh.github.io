@@ -98,8 +98,8 @@ a {
 	border-top: 1px solid #FFFFFF;
 	border-bottom: 1px dotted #000;
 }
-#post-3 .title, #post-4 .title {
-	height: 28px;
+#post-3 .title {
+	height: 22px;
 	background-image: url('images/h3-movie-trailers-bg.gif');
 	background-repeat: repeat-x;
 }
@@ -177,7 +177,7 @@ a {
 	background: #FFFFFF;
 }
 #post-4 .post-4-content {
-	padding: 7px;
+	padding: 7px 7px 3px 7px;
 }
 #post-4 .post-4-content .left {
 	float: left;
@@ -193,6 +193,12 @@ a {
 .line {
 	margin-top: 100px;
 	border-bottom: 1px dotted #C0C0C0;
+}
+#post-4 .title {
+	font-size: 15px;
+	padding-top: 2px; 
+	background: #FFFFFF;
+	height: 18px;
 }
 #post-4 .post-4-cont-5 {
 	background: #FFFFFF;
@@ -230,8 +236,11 @@ a {
 	color: #FFFFFF;
 	text-align: center;
 }
+#menu .img {
+	height:40px;
+}
 #footer {
-	color: #000;
+	color: #277CCB;
 	text-align: center;
 	line-height: 20px;
 	padding-top: 10px;
