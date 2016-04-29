@@ -5,9 +5,9 @@
 body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	width: 500px;
-	height: 850px;
+	height: 695px;
 	border: solid 1px #0033FF;
-	line-height: 1.5;
+	line-height: 16px;
 }
 .row {
 	width: 500px;
@@ -37,25 +37,27 @@ body {
 	overflow: scroll;
 }
 .title-facts {
+	padding-left: 5px;
 	font-weight: bold;
 	padding-top: 110px;
 }
 ul {
 	list-style: none;
-	padding-bottom: 20px;
+	padding: 15px 0px 20px 0px;
 }
 li {
-	margin-left: 20px;
+	margin-left: 40px;
 	padding-left: 30px;
 	background-image: url('image/star.gif');
 	background-repeat: no-repeat;
-	line-height: 2;
+	line-height: 24px;
 }
 .comment-text {
+	margin-left:5px;
 	background: #ECECEC;
 }
 .comment-post {
-	text-align: center;
+	padding-left: 60px;
 	background-image: url('image/comment_bt.gif');
 	background-repeat: no-repeat;
 }
@@ -63,22 +65,33 @@ a {
 	color: blue;
 }
 .comment-form {
-	width: 100%;
 	padding: 20px 5px 0;
 }
 .comment-form .comment-form-title {
+	padding-bottom: 10px;
 	font-weight: bold; 	
 	text-align: center;
 	font-size: 16pt;
 }
-.comment-form .lbl {
+.lbl, .lbl1 {
 	width: 25%;
 	float: left;
-	padding: 0px 5px;
+	padding:0px 5px;
 }
 .input {
-	height: 10px;
+	float: left;
 }
-.input1 {
-	height: 38px;
+.post {
+	widtth: 100%;
+	padding-bottom: 5px;
+	height:25px;
+}
+.input-email {
+	margin-top: -10px;
+}
+.input-email {
+	margin-top: -10px;
+}
+.lbl1 {
+	margin: 30px 0px 0px -132px;
 }

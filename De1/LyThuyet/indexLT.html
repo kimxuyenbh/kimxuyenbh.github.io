@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8"/>
 		<title>LyThuyet</title>
 		<link rel="stylesheet" type="text/css" href="styleLT.css" />
 	</head>
@@ -8,13 +9,13 @@
 		<div class="row">
 			<div class="title-player">Player Profiles</div>
 			<div class="player-profile">
-				<div class="player-img"><img src="image/avatar.gif"/></div>
+				<div class="player-img"><img src="image/avatar.gif" alt="#"/></div>
 				<div class="player-text">
-					Ten: Nguyen Xuan Nam</br>
-					Noi sinh: Ha Noi</br>
-					Ngay sinh: 28/11/1990</br>
-					Vi tri: Teamlear</br>
-					Cao: 170cm</br>
+					Ten: Nguyen Xuan Nam<br/>
+					Noi sinh: Ha Noi<br/>
+					Ngay sinh: 28/11/1990<br/>
+					Vi tri: Teamlear<br/>
+					Cao: 170cm<br/>
 					Nang: 65kg</div>
 			</div>
 		</div>
@@ -32,28 +33,32 @@
 		</div>
 		<div class="row">
 			<div class="comment">
-				<div class="comment-text">Nam choi cho cau lac bo The Cong.</br>The Cong dat cup vo dich</div>
+				<div class="comment-text">Nam choi cho cau lac bo The Cong.<br/>The Cong dat cup vo dich</div>
 				<div class="comment-post">Posted by <a>The cong's Fan</a> 20/12/2007</div>
 			</div>
 			<div class="comment">
-				<div class="comment-text">Nam la cau thu choi rat hay o The Cong.</br>Va anh da chuyen toi Hoa Phat <>:)</div>
+				<div class="comment-text">Nam la cau thu choi rat hay o The Cong.<br/>Va anh da chuyen toi Hoa Phat &lt;&gt;:))</div>
 				<div class="comment-post">Posted by <a>Hoa Phat's Fan</a> 20/12/2007</div>
 			</div>
 		</div>
 		<div class="row">
 			<form class="comment-form">
 				<div class="comment-form-title">Your Comment</div>
-				<div class="row">
-					<div class="lbl">Your Name</div>
-					<div class="input"><input name="name" type="text" size="20"/></div>
-				</div>
-				<div class="row">
-					<div class="lbl">Your Email(will not public)</div>
-					<div class="input1"><input name="email" type="text" size="20"/></div>
-				</div>
-				<div class="row">
-					<div class="lbl">Comment</div>
-					<div class="input"><textarea name="comment" rows="4" cols="30">Your comment here &lt;/textarea&gt;</textarea></div>
+				<div class="comment">
+					<div class="menu-comment">
+						<div class="post">
+							<span class="lbl">Your Name</span>
+							<span class="input"><input name="name" type="text" size="20"/></span>
+						</div>
+						<div class="post">
+							<span class="lbl">Your Email(will not public)</span>
+							<span class="input"><input name="name" type="text" size="20" class="input-email"/></span>
+						</div>
+						<div class="post">
+							<span class="lbl1">Comment</span>
+							<span class="input"><textarea name="comment" rows="5" cols="30">Your comment here &lt;/textarea&gt;</textarea></span>
+						</div>
+					</div>
 				</div>
 			</form>
 		</div>		
