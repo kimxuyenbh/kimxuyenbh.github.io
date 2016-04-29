@@ -12,6 +12,10 @@ a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
+#main-left .a-1 {
+	text-decoration: underline;
+	color: #757575;
+}
 #main {
 	width: 750px;
 	margin: 20px 0px 0px 100px;
@@ -70,9 +74,7 @@ a {
 	width: 235px;
 }
 #post-2 li {
-	color: #757575;
 	line-height: 25px;
-	text-decoration: underline;
 }
 #post-2 ul {
 	list-style: none;
