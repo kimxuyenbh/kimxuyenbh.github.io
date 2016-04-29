@@ -5,8 +5,11 @@
 body {
 	font-family:Arial;
 	font-size:0.6875em;
-	color: #787683;
+	color: #666;
 	background: #000;
+}
+a {
+	text-decoration: none;
 }
 #header {
 	margin-bottom: 50px;
@@ -41,13 +44,13 @@ body {
 	padding-right: 60px;
 }
 #mid {
-	height: 580px;
+	height: 650px;
 	margin-left: 50px;
 }
 #mid .left {
 	background: #232326;
 	float: left;
-	height: 350px;
+	height: 400px;
 	width: 220px;
 	padding: 25px;
 }
@@ -56,17 +59,19 @@ body {
 	border-bottom: 1px solid #787683;
 }
 #mid .text-left {
-	
+	line-height: 18px;
 	padding: 20px 0px 70px 10px;
 }
 #mid .list {
 	padding-top: 20px;
 }
 #mid ul {
-	padding-left: 30px;
+	list-style-type:none;
+	padding-left: 20px;
 }
 #mid li {
-	line-height: 20px;
+	color: #757575;
+	line-height: 25px;
 	text-decoration: underline;
 }
 #mid .right {
@@ -76,7 +81,7 @@ body {
 	float: left;
 }
 #mid .post-1 {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 #mid .img-post {
 	padding-bottom: 10px;
@@ -89,20 +94,27 @@ body {
 	background-color: #2C2C2C
 }
 #mid .post-text {
+	line-height: 16px;
 	padding-bottom: 10px;
+}
+#mid .img-li {
+	padding-right: 5px;
 }
 .r-line {
 	padding-top: 10px;
 	border-bottom: 1px dotted #787683;
 }
-#mid .lauch {
-	padding-top: 10px;
+#mid .lauch {	
+	padding-top: 15px;
+}
+#mid .a-1 {
+	color: #FFFFFF;
 }
 #mid .img-lauch {
 	padding-right: 5px;
 }
 #footer {
-	padding-left: 50px;
+	padding: 0px 0px 50px 50px;
 	width: 730px;
 }
 #footer .footer-text {
