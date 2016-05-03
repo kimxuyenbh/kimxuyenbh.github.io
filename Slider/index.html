@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Slider Anh</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="slide.js"></script>
+	</head>
+	<body onLoad="load()">
+		<div class="slide">
+			<img  id="slide-img" src="images/1.jpg" alt="#"/>
+			<div class="prev"><img class="img-prev" onclick="slidePrevNext(-1)" src="images/previous.png"/></div>
+			<div class="next"><img class="img-next" onclick="slidePrevNext(1)" src="images/next.png"/></div>
+			<div id="index">
+				<ul>
+					<li><input class="li-index" type="button" value="1" onclick="indexImages(1)"/></li>
+					<li><input class="li-index" type="button" value="2" onclick="indexImages(2)"/></li>
+					<li><input class="li-index" type="button" value="3" onclick="indexImages(3)"/></li>
+					<li><input class="li-index" type="button" value="4" onclick="indexImages(4)"/></li>
+					<li><input class="li-index" type="button" value="5" onclick="indexImages(5)"/></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
