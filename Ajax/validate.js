@@ -89,7 +89,6 @@ function submitInfo() {
 	if(checkUser() && checkPass() && checkEmail() && checkBirthday()) {
 		formInfo.action = "http://kimxuyen.esy.es/formAjax/ajax.php";
 	} else {
-		formInfo.action = "http://kimxuyenbh.github.io/Ajax/index.html";
 		alert("please enter the correct validate");
 	}
 }
