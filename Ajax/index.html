@@ -14,7 +14,7 @@
 					<tr>
 						<td>Username</td>
 						<td><input id="userName" name="userName" type="text" placeholder="Your Name...." onchange="checkUser()" class="input-text"/></td>
-						<td><div id="errorName" class="error"></div></td>
+						<td><div id="errorName" class="error"><?php echo $error;?></div></td>
 					</tr>
 					<tr>
 						<td>Password</td>
@@ -30,7 +30,7 @@
 						<td>Birthday</td>
 						<td>
 							<input id="inputDate" name="birthday" type="text" placeholder="Choice Birthday...." onchange="checkBirthday()" class="input-text"/>
-							<img id="img-cld" src="images/calendar.png" onclick="HienAn()" alt="#"/>
+							<img id="img-cld" src="images/calendar.png" onclick="showHidden()" alt="#"/>
 							<div id="cld"><table id="calendar"></table></div>
 						</td>
 						<td><div id="errorBirth" class="error"></div></td>
