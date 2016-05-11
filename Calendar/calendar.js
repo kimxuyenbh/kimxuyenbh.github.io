@@ -215,10 +215,10 @@ function getDate(date) {
 	var monthNow = slMonth.options[slMonth.selectedIndex].value;
 		
 	document.getElementById("inputDate").value = date.innerHTML + "-" + monthNow.toString() + "-" + yearNow.toString();
-	ShowHidden();
+	showHidden();
 }
 //show hidden
-function ShowHidden() {
+function showHidden() {
 	if (show == true) {
 		document.getElementById("cld").style.display = "none";
 		show = false;
