@@ -1,0 +1,27 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+}
+body {
+	background: black;
+}
+.content {
+	margin: 0px auto;
+	width: 500px;
+}
+.content #canvas {
+	width: 500px;
+	height: 600px;
+}
+.content #top-canvas {
+	width: 500px;
+	height: 90px;
+}
+#text {
+	width: 320px;
+	color: white;
+	margin: -350px 10px 0px 20px;
+}
+li {
+	margin-left: 40px;
+}
