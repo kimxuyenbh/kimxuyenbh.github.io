@@ -1,0 +1,55 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background: white;
+}
+.form {
+	margin: auto;
+	width: 800px;
+}
+#show {
+	background: black;
+	color: white;
+	border: 1px solid black;
+	text-decoration: none;
+}
+#img-cld {
+	margin: 0px 0px -7px -33px;
+	width: 30px;
+	height: 25px;
+}
+#calendar, #calendar td {
+	border: 1px solid black;
+}
+#cld {
+	display: none;
+}
+#calendar td {
+	font-size: 20px;
+	text-align: center;
+	width: 55px;
+	padding: 10px;
+}
+button, select {
+	width: 100%;
+}
+.table-ajax td {
+	padding: 20px 20px 0px 0px;
+}
+.input-text {
+	height: 30px;
+	border: 1px solid #0F0;
+}
+.btn {
+	color: white;
+	font-weight: bold;
+	background: #2471A3;
+	width: 80px;
+	height: 30px;
+}
+.error {
+	color: red;
+	font-weight: bold;
+}

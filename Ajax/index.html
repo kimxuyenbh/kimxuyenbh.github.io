@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Form_Ajax</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="validate.js"></script>
+		<script type="text/javascript" src="calendar.js"></script>
+	</head>
+	<body onLoad="load()">
+		<div class="form">
+			<form id="form-info" method="post">
+				<table class="table-ajax">
+					<tr>
+						<td>Username</td>
+						<td><input id="userName" name="userName" type="text" placeholder="Your Name...." onchange="checkUser()" class="input-text"/></td>
+						<td><div id="errorName" class="error"></div></td>
+					</tr>
+					<tr>
+						<td>Password</td>
+						<td><input id="pass" type="password" name="password" placeholder="Password...." onchange="checkPass()" class="input-text"/></td>
+						<td><div id="errorPass" class="error"></div></td>
+					</tr>
+					<tr>
+						<td>Email</td>
+						<td><input id="email" name="email" type="text" placeholder="Your Email...." onchange="checkEmail()" class="input-text"/></td>
+						<td><div id="errorMail" class="error"></div></td>
+					</tr>
+					<tr>
+						<td>Birthday</td>
+						<td>
+							<input id="inputDate" name="birthday" type="text" placeholder="Choice Birthday...." onchange="checkBirthday()" class="input-text"/>
+							<img id="img-cld" src="images/calendar.png" onclick="showHidden()" alt="#"/>
+							<div id="cld"><table id="calendar"></table></div>
+						</td>
+						<td><div id="errorBirth" class="error"></div></td>
+					</tr>
+					<tr>
+						<td><input id="submit" name="submit" type="submit" value="Submit" class="btn" onclick="return submitInfo()"/></td>
+						<td><input id="refresh" type="button" value="Refresh" onclick="refreshForm()" class="btn"/></td>
+						<td></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
