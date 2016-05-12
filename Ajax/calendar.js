@@ -222,12 +222,8 @@ function showHidden() {
 	if (show == true) {
 		document.getElementById("cld").style.display = "none";
 		show = false;
-		document.getElementById("show").innerHTML = "SHOW";
-		document.getElementById("show").style.fontWeight = "bold";
 	}else {
 		document.getElementById("cld").style.display = "block";
 		show = true;
-		document.getElementById("show").innerHTML = "HIDDEN";
-		document.getElementById("show").style.fontWeight = "bold";
 	}
 }

@@ -1,3 +1,24 @@
+//get content page
+var getHTML = function (url, callback) {
+
+	// Feature detection
+	if (!window.XMLHttpRequest) return;
+
+	// Create new request
+	var xhr = new XMLHttpRequest();
+
+	// Setup callback
+	xhr.onload = function() {
+	if (callback && typeof(callback) === 'function') {
+		callback(this.responseXML);
+		}
+	}
+
+	 // Get the HTML
+	xhr.open('GET', url);
+	xhr.responseType = 'document';
+	xhr.send();
+};
 //check validate username
 function checkUser() {
 	var user = document.getElementById("userName");
@@ -9,14 +30,21 @@ function checkUser() {
 	} else {
 		if (user.value.length > 0 && user.value.length < 6) {
 			errorName.innerHTML = "Username length min 6 letter";
-			if (user.value.match(regex) == null) {
-				errorName.innerHTML = "Username have special character";
-			}
 			return false;
-		} else {
-			errorName.innerHTML = "";
-			return true;
 		}
+		if (user.value.match(regex) == null) {
+			errorName.innerHTML = "Username have special character";
+			return false;
+		}
+		getHTML("ajax.php?checkusername="+user.value, function(data) {
+			var htmlstring = data.documentElement.innerHTML; 
+			if (htmlstring.trim().length == 26) {
+				errorName.innerHTML = "";
+				return true;
+			}
+			errorName.innerHTML = htmlstring;
+			return false;	
+		});
 		errorName.innerHTML = "";
 		return true;
 	}
@@ -87,8 +115,10 @@ function refreshForm() {
 function submitInfo() {
 	var formInfo = document.getElementById("form-info");
 	if (checkUser() && checkPass() && checkEmail() && checkBirthday()) {
-		formInfo.action = "http://kimxuyen.esy.es/formAjax/ajax.php";
+		formInfo.action = "ajax.php";
+		return true;
 	} else {
 		alert("please enter the correct validate");
+		return false;
 	}
 }

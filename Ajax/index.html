@@ -14,7 +14,7 @@
 					<tr>
 						<td>Username</td>
 						<td><input id="userName" name="userName" type="text" placeholder="Your Name...." onchange="checkUser()" class="input-text"/></td>
-						<td><div id="errorName" class="error"><?php echo $error;?></div></td>
+						<td><div id="errorName" class="error"></div></td>
 					</tr>
 					<tr>
 						<td>Password</td>
@@ -36,7 +36,7 @@
 						<td><div id="errorBirth" class="error"></div></td>
 					</tr>
 					<tr>
-						<td><input id="submit" name="submit" type="submit" value="Submit" class="btn" onclick="submitInfo()"/></td>
+						<td><input id="submit" name="submit" type="submit" value="Submit" class="btn" onclick="return submitInfo()"/></td>
 						<td><input id="refresh" type="button" value="Refresh" onclick="refreshForm()" class="btn"/></td>
 						<td></td>
 					</tr>
