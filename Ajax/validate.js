@@ -36,7 +36,7 @@ function checkUser() {
 			errorName.innerHTML = "Username have special character";
 			return false;
 		}
-		getHTML("ajax.php?checkusername="+user.value, function(data) {
+		getHTML("http://kimxuyen.esy.es/formAjax/ajax.php?checkusername="+user.value, function(data) {
 			var htmlstring = data.documentElement.innerHTML; 
 			if (htmlstring.trim().length == 26) {
 				errorName.innerHTML = "";
