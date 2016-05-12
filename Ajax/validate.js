@@ -115,7 +115,7 @@ function refreshForm() {
 function submitInfo() {
 	var formInfo = document.getElementById("form-info");
 	if (checkUser() && checkPass() && checkEmail() && checkBirthday()) {
-		formInfo.action = "ajax.php";
+		formInfo.action = "http://kimxuyen.esy.es/formAjax/ajax.php";
 		return true;
 	} else {
 		alert("please enter the correct validate");
