@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Slider Anh</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+		<script type="text/javascript" src="slide.js"></script>
+	</head>
+	<body>
+		<div class="slide">
+			<img class="slide-img" src="images/1.jpg" alt="#" stt="0"/>
+			<img class="slide-img" src="images/2.jpg" alt="#" style="display: none" stt="1"/>
+			<img class="slide-img" src="images/3.jpg" alt="#" style="display: none" stt="2"/>
+			<img class="slide-img" src="images/4.jpg" alt="#" style="display: none" stt="3"/>
+			<img class="slide-img" src="images/5.jpg" alt="#" style="display: none" stt="4"/>
+			<div id="prev"><img id="img-prev" src="images/previous.png" alt="#"/></div>
+			<div id="next"><img id="img-next" src="images/next.png" alt="#"/></div>
+			<div id="index">
+				<ul>
+					<li><input type="button" value="1" class="active-index" index="0"/></li>
+					<li><input type="button" value="2" index="1"/></li>
+					<li><input type="button" value="3" index="2"/></li>
+					<li><input type="button" value="4" index="3"/></li>
+					<li><input type="button" value="5" index="4"/></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
