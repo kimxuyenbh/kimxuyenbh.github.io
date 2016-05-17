@@ -224,6 +224,17 @@ ul {
 #mid .title_3 {
 	margin:40px 0px 15px 0px;;
 }
+#mid .text_left {
+	background:url(../images/bullet_1.jpg) no-repeat left;
+	margin-left:7px;
+	padding-left:15px;
+	float:left;
+}
+#mid .text_right {
+	padding:0px 0px 15px 128px;
+	background:url(../images/bg_index_dl.jpg) repeat-x left bottom;
+	margin-bottom:15px;
+}
 /*content mid right*/
 .mid_right {
 	width:230px;
@@ -270,7 +281,8 @@ ul {
 }
 #mid .aside_img_2:hover,
 #mid .aside_img_3:hover,
-#mid .aside_button:hover {
+#mid .aside_button:hover,
+#mid .img_button:hover {
 	opacity:0.6;/*opacity: crystal(độ trong suốt)*/
 	filter:alpha(opacity=60);
 }
