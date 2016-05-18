@@ -11,8 +11,11 @@
     <meta content="width=device-width; initial-scale=1.0" name="viewport">
     <title>滋賀県草津市のエステ・発毛ならFeminin（フェミニン）</title>
     <link type="text/css" rel="stylesheet" href="css/common.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.meanmenu.min.js"></script>
     <script type="text/javascript" src="js/slide.js"></script>
+    <script type="text/javascript" src="js/scoll.js"></script>
+    <script type="text/javascript" src="js/behavior.js"></script>
   </head>
   <body>
   	<!--header-->
@@ -31,7 +34,7 @@
     </div>
     <!--menu-->
     <div id="menu">
-    	<div class="menu_content">
+    	<div class="menu_content" id="globalNavi">
         	<ul>
             	<li class="menu_1"><a class="menu_1 active" href="#"><img src="images/menu_1.jpg" alt="#"/></a></li>
                 <li class="menu_2"><a class="menu_2" href="#"><img src="images/menu_2.jpg" alt="#"/></a></li>
@@ -72,14 +75,14 @@
             <div class="mid_left">
             	<div class="content_left">
                 	<div class="title_1"><img src="images/title_1.jpg"/></div>
-                    <img src="images/img_1.jpg" style="float:left"/>
-                    <div class="content_l1_text" style="float:right">
+                    <img src="images/img_1.jpg" class="img_1"/>
+                    <div class="content_l1_text">
                     	<p>Feminine（フェミニン）では、フェイシャル・ボディトリートメントを通して「女性らしく」をテーマに皆様の美（ビューティー）をサポートします。</p>
                         <p>
                         	下記、安心のお約束を致します。<br/>
-                            ・完全個室での施術です。・強引な勧誘セールスは一切ありません。<br/>
-                            ・お客様に合ったメニューと回数を提案致します。<br/>
-                            ・安心予約制でお待たせしません。時間内しっかり施術保証です。<br/>
+                            <strong>・完全個室での施術です。・強引な勧誘セールスは一切ありません。</strong><br/>
+                            <strong>・お客様に合ったメニューと回数を提案致します。</strong><br/>
+                            <strong>・安心予約制でお待たせしません。時間内しっかり施術保証です。</strong><br/>
                         </p>
                         <p>また当サロンでは男女問わず薄毛で悩んでおられる方に対し、厚生労働大臣製造承認の発毛薬用アクティトニックと独自の技術により、薄毛・脱毛に悩む５万人以上の方々から効果と安全性を実証しています。</p>
                     </div>
@@ -194,6 +197,8 @@
             </div>
         </div>
     </div>
+    <!--page top-->
+    <p id="page_top"><a href="#">PAGE TOP</a></p>
     <!--copyright-->
     <div id="copyright">
     	<p>Copyright　Feminine（フェミニン）　All Rights Reserved.</p>
