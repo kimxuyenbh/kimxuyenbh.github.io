@@ -29,14 +29,14 @@
 	margin:7px auto;
 	display:inline-block;
 }
-#mid .img_1,
-#mid .content_l1_text {
+#mid .img_1 {
 	margin:7px auto;
-	display:block;
+	display:inline-block;
 	float:none;
 }
 #mid .content_l1_text {
-	width:100%;
+	float:none;
+	display:block;
 	text-align:left;
 }
 #mid .content_l1_text p strong {
@@ -78,7 +78,7 @@
 }
 #footer .f_3 {
 	float:none;
-	display:inline-block;
+	display:block;
 	margin:7px auto;
 }
 #copyright {
