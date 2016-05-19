@@ -57,6 +57,15 @@
 	float:none;
 	margin:25px auto;
 }
+#mid .text_left {
+	float:none;
+	margin-bottom:5px;
+}
+#mid .text_right {
+	display:block;
+    padding-left: 23px;
+	width:auto;
+}
 #footer {
 	margin-top:50px;
 	padding-bottom:30px;
