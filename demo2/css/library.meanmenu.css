@@ -1,7 +1,7 @@
 a.meanmenu-reveal {
 	display: none;
 }
-#menu {
+.menu {
 	height:auto;
 	margin:0;
 	display:none;
@@ -60,7 +60,7 @@ a.meanmenu-reveal {
 	z-index:1;
 	background:#fdfffc;
 	padding:2px 0;
-	background:#fbfbfd;
+	background:#f66e00;;
 	border-bottom:1px solid #edf7f8;
 }
 
@@ -75,88 +75,59 @@ a.meanmenu-reveal {
 	z-index:9999999;
 	height:47px;
 }
-.mean-container .mean-nav ul li a img{
+.mean-container .mean-nav ul li a img {
 	display:none;
 	}
 .mean-container .mean-nav ul li.menu_1 a{
-	background:url(../images/menu_1.jpg) no-repeat center center;
+	background:url(../images/menu_1.png) no-repeat center center;
 	}	
 .mean-container .mean-nav ul li.menu_2 a{
-	background:url(../images/menu_2.jpg) no-repeat center center;
+	background:url(../images/menu_2.png) no-repeat center center;
 	}
 .mean-container .mean-nav ul li.menu_3 a.menu_3{
-	background:url(../images/menu_3.jpg) no-repeat center center
+	background:url(../images/menu_3.png) no-repeat center center
 	}
 .mean-container .mean-nav ul li.menu_4 a{
-	background:url(../images/menu_4.jpg) no-repeat center center
+	background:url(../images/menu_4.png) no-repeat center center
 	}
 .mean-container .mean-nav ul li.menu_5 a{
-	background:url(../images/menu_5.jpg) no-repeat center center
+	background:url(../images/menu_5.png) no-repeat center center
 	}
 .mean-container .mean-nav ul li.menu_6 a{
-	background:url(../images/menu_6.jpg) no-repeat center center
+	background:url(../images/menu_6.png) no-repeat center center
 	}	
 .mean-container .mean-nav ul li.menu_7 a{
-	background:url(../images/menu_7.jpg) no-repeat center center
+	background:url(../images/menu_7.png) no-repeat center center
 	}
 
 .mean-container .mean-nav ul li.menu_1 a:hover,
 .mean-container .mean-nav ul li.menu_1 a.active{
-	background:url(../images/menu_1_hover.jpg) no-repeat center center;
+	background:url(../images/menu_1_hover.png) no-repeat center center;
 	}	
 .mean-container .mean-nav ul li.menu_2 a:hover,
 .mean-container .mean-nav ul li.menu_2 a.active{
-	background:url(../images/menu_2_hover.jpg) no-repeat center center;
+	background:url(../images/menu_2_hover.png) no-repeat center center;
 	}
 .mean-container .mean-nav ul li.menu_3 a:hover,
 .mean-container .mean-nav ul li.menu_3 a.active{
-	background:url(../images/menu_3_hover.jpg) no-repeat center center
+	background:url(../images/menu_3_hover.png) no-repeat center center
 	}
 .mean-container .mean-nav ul li.menu_4 a:hover,
 .mean-container .mean-nav ul li.menu_4 a.active{
-	background:url(../images/menu_4_hover.jpg) no-repeat center center
+	background:url(../images/menu_4_hover.png) no-repeat center center
 	}
 .mean-container .mean-nav ul li.menu_5 a:hover,
 .mean-container .mean-nav ul li.menu_5 a.active{
-	background:url(../images/menu_5_hover.jpg) no-repeat center center
+	background:url(../images/menu_5_hover.png) no-repeat center center
 	}
 .mean-container .mean-nav ul li.menu_6 a:hover,
 .mean-container .mean-nav ul li.menu_6 a.active{
-	background:url(../images/menu_6_hover.jpg) no-repeat center center
+	background:url(../images/menu_6_hover.png) no-repeat center center
 	}	
 .mean-container .mean-nav ul li.menu_7 a:hover,
 .mean-container .mean-nav ul li.menu_7 a.active{
-	background:url(../images/menu_7_hover.jpg) no-repeat center center
+	background:url(../images/menu_7_hover.png) no-repeat center center
 	}
-
-.mean-container .mean-nav ul li ul.subMenu li.subMenu {
-	border-top:1px solid #edf7f8;
-	border-bottom:none;
-    height: auto !important;
-    margin: 0 !important;
-    padding: 0px !important;
-    text-align: center;
-    width: 100%;
-	background:#fefcf6 !important;
-}
-.mean-container .mean-nav ul li ul.subMenu li.subMenu a {
-    float: none !important;
-    font-size: 14px;
-    height: auto !important;
-    margin-top: 0 !important;
-    text-align: center;
-	padding-top:15px !important;
-	padding-bottom:15px !important;
-	color:#595959;
-	font-weight:bold;
-	background:none !important;
-}
-.mean-container .mean-nav ul li ul.subMenu li.subMenu a:hover {
-    text-decoration:underline;
-	background:none !important;
-
-}
-
 a.mean-expand{
 	height:36px !important;
 	position:absolute;
