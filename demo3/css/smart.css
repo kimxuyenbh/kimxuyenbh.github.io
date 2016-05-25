@@ -56,6 +56,15 @@
 	display:inline-block;
 	margin:0px auto;
 }
+#mid .img_button_3 {
+	float:none;
+	margin:7px auto;
+}
+#mid .img_button_4 {
+	float:none;
+	margin:7px auto;
+	width:auto;
+}
 #mid .mid_right {
 	float:none;
 	margin:25px auto;
