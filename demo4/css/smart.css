@@ -1,0 +1,82 @@
+/*@media screen call responsive*/
+@media screen and (max-width: 644px) {
+#header {
+	float:none;
+}
+.inner,
+.header_text {
+	height:auto;
+	margin:0 auto;
+	padding:0 1%;
+	text-align:center;
+	width:98%;
+	min-width:50%;
+}
+.header_right {
+	margin:7px auto;
+}
+#banner {
+	display:none;
+}
+#mid {
+	float:none;
+}
+#mid .mid_left,
+#mid .mid_right {
+	width:98%;
+	min-width:50%;
+	float:none;
+	text-align:center;
+	width:100%;
+	margin:7px auto;
+}
+#mid .mid_right .content_r_l,
+#mid .mid_right .content_r_r {
+	float:none;
+	display:inline-block;
+	margin:5px auto;
+	padding-bottom:5px;
+}
+#mid .mid_bot {
+	float:none;
+	text-align:center;
+	width:100%;
+	margin:7px auto;
+}
+#mid .mid_bot_1,
+#mid .mid_bot_3 {
+	float:none;
+	margin:7px auto;
+}
+#mid .mid_bot .text_left {
+	display:block;
+	float:none;
+}
+#mid .mid_bot .text_right {
+	display:block;
+	margin:0px auto;
+	float:none;
+    padding-left: 23px;
+	width:100%;
+}
+#footer {
+	float:none;
+}
+#footer .f_1 ul li {
+	float:none;
+	margin:0px auto;
+}
+#footer .f_1 ul {
+	width:100%;
+	display:inline-block;
+}
+#footer .f_2 span,
+#copyright {
+	width:100%;
+	text-align:center;
+	height:auto;
+	float:none;
+	display:block;
+	margin:0px auto;
+}
+}
