@@ -5,13 +5,14 @@
 }
 .inner,
 .header_left img,
-.header_right {
+.header_right,
+.header_right img {
 	height:auto;
 	margin:0 auto;
 	padding:0 1%;
 	text-align:center;
 	width:98%;
-	min-width:50%;
+	min-width:0;
 }
 .header_right {
 	margin:7px auto;
