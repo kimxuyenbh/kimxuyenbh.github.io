@@ -33,6 +33,14 @@
 	display:inline-block;
 	float:none;
 }
+#mid .img_2 {
+	height:auto;
+	margin:0 auto;
+	padding:0 1%;
+	text-align:center;
+	width:98%;
+	min-width:50%;
+}
 #mid .content_l1_text {
 	text-align:left;
 	max-width:100%;
