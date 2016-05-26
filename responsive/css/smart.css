@@ -58,11 +58,11 @@
 	float:none;
 	margin:25px auto;
 }
-#mid .text_left {
+#mid dl dt {
 	float:none;
 	margin-bottom:5px;
 }
-#mid .text_right {
+#mid dl dd {
 	display:block;
     padding-left: 23px;
 	width:auto;
