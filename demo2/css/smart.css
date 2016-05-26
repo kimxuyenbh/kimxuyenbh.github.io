@@ -49,6 +49,13 @@
 	margin:20px 17px 17px auto;
 	text-align:left;
 }
+#mid .title_4 {
+	width:98%;
+	min-width:50%;
+	height:auto;
+	margin:0 auto;
+	padding:0 1%;
+}
 #mid .content_r_3_l,
 #mid .content_r_3_r {
 	float:none;
@@ -56,6 +63,7 @@
 	margin:5px;
 }
 #footer {
+	margin:0px auto;
 	float:none;
 }
 #footer .f_1,
