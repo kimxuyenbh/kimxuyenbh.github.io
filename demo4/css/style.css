@@ -55,7 +55,6 @@ ul {
 	float:left;
 }
 #menu ul {
-	background:url(../images/line_menu.jpg) no-repeat right center;
 	float:right;
 	margin-top:1px;
 }
@@ -154,17 +153,26 @@ ul {
 	min-width:675px;
 	max-width:675px;
 	display:inline-block;
-	height:590px;
+	height:auto;
 	float:right;
 }
-#mid .img_3 {
+#mid img.img_3 {
+	width:100%;
+	max-width:675px;
+	min-width:675px;
 	margin-bottom:7px;
 }
 #mid .mid_right_1,
 #mid .mid_right_2 {
-	padding:7.5px 0px;
+	display:inline-block;
+	margin:7px 0px;
 	height:185px;
 	width:100%;
+}
+#mid .mid_right_1 p a {
+	width:100%;
+	height:auto;
+	display:block;
 }
 #mid .mid_right_2 {
 	padding-bottom:0px;
@@ -205,22 +213,23 @@ ul {
 #mid .mid_bot_2 {
 	padding:24px 20px 11px 15px;
 	background:#f8f8f8;
-	width:615px;
+	max-width:615px;
+	height:auto;
 	float:left;
 }
-#mid .mid_bot_2 .text_left {
-	padding-left:17px;
+#mid dl dt {
 	background:url(../images/bullet.png) no-repeat left;
+	margin-left:7px;
+	padding-left:15px;
 	float:left;
-	text-align:left;
+	text-align: left;
 }
-#mid .mid_bot_2 .text_right {
-	margin:-19px 0px 5px 0px;
+#mid dl dd {
+	width:490px;
 	background:url(../images/line_index.png) repeat-x left bottom;
 	padding:0px 0px 7px 128px;
-	float:left;
-	text-align:left;
-	width:490px;
+	margin-bottom:4px;
+	text-align: left;
 }
 #mid .mid_bot_3 {
 	float:right;
@@ -266,7 +275,7 @@ ul {
 #footer .f_1 ul {
 	height:auto;
 	margin:0 auto;;
-	width:550px;
+	max-width:550px;
 }
 #footer .f_1 ul li {
 	padding-bottom:15px;
