@@ -22,7 +22,9 @@
 .header_right {
 	margin:7px auto;
 }
-#banner {
+#banner,
+.mean-nav ul li.menu_out_l,
+.mean-nav ul li.menu_out_r {
 	display:none;
 }
 #mid {
@@ -34,8 +36,7 @@
 	margin:7px auto;
 	display:inline-block;
 }
-#mid .img_box,
-#mid .box_5 .box_text img {
+#mid .img_box {
 	margin:7px auto;
 	display:inline-block;
 	float:none;
@@ -61,6 +62,7 @@
 	float:none;
 }
 #mid .box_5 {
+	width:100%;
 	height:auto;
 	margin:0 auto;
 	padding:0 1%;
@@ -68,12 +70,22 @@
 	width:98%;
 	min-width:50%;
 }
+#mid .box_5 .box_text {
+	width:100%;
+	float:none;
+	margin:7px auto;
+	display:inline-block;
+}
 #mid .box_5 .box_ul ul {
+	margin:7px auto;
 	float:none;
 }
 #mid .box_5 .box_ul ul li {
 	margin:7px auto;
 	text-align:left;
+}
+#mid .box_5 .box_ul ul li a {
+	width:100%;
 }
 #mid .mid_right {
 	float:none;
@@ -97,15 +109,22 @@
 #footer .f_1 .logo_footer,
 #footer .f_2 {
 	height:auto;
-	margin:0 auto;
+	margin:15px auto 0px auto;
 	padding:0 1%;
 	text-align:center;
 	width:98%;
 	min-width:50%;
 }
 #footer .f_2 ul {
+	vertical-align:top;
+	margin:5px auto;
 	float:none;
 	display:inline-block;
+}
+#footer .f_2 ul li,
+#footer .f_2 ul.u_2 li.li_1 {
+	float:none;
+	margin:5px auto;
 	text-align:left;
 }
 #copyright {
