@@ -19,84 +19,87 @@
   <body>
   	<!--header-->
   	<div id="header">
-    	<img src="images/border_top.jpg" alt="#"/>
     	<div class="inner">
             <a href="index.html" class="header_left"><img src="images/logo.png" alt="#"/></a>
-            <div class="header_right_1">
-                <p>
-                	土日も営器しております。<br/>
-                    お気経にお閣い台わせ<虎さい
-                </p>
-                <a href="#"><img src="images/tel_head.png" alt="#"/></a>
-            </div>
-            <div class="header_right_2">
-            	<a href="#"><img src="images/img_head_1.png" alt="#"/></a><br/>
-                <a href="#"><img src="images/img_head_2.png" alt="#"/></a>
+            <div class="header_right">
+                <div class="header_right_1">
+                    <p>
+                        土日も営器しております。<br/>
+                        お気経にお閣い台わせ<虎さい
+                    </p>
+                    <a href="#"><img src="images/tel_head.png" alt="#"/></a>
+                </div>
+                <div class="header_right_2">
+                    <a href="#"><img src="images/img_head_1.png" alt="#" class="img_button"/></a><br/>
+                    <a href="#"><img src="images/img_head_2.png" alt="#" class="img_button"/></a>
+                </div>
             </div>
     	</div>
     </div>
+    <div style="clear:both"></div>
     <!--banner-->
     <div id="banner">
     	<div id="slide">
-			<img src="images/banner_1.jpg" alt="#"/>
-            <img src="images/banner_2.jpg" alt="#" style="display:none"/>
+			<img src="images/banner_1.jpg" alt="#" stt="0" class="slide-img"/>
+            <img src="images/banner_2.jpg" alt="#" style="display:none" stt="1" class="slide-img"/>
+            <div id="prev"><img id="img-prev" src="images/button_prev.png" alt="#"/></div>
+			<div id="next"><img id="img-next" src="images/button_next.png" alt="#"/></div>
         </div>
     </div>
     <!--menu-->
     <div id="menu">
     	<div class="menu_content" id="globalNavi">
         	<ul>
-            	<li class="menu_0"><a class="menu_1 active" href="#"><img src="images/menu_0.jpg" alt="#"/></a></li>
+            	<li class="menu_out_l"><a class="menu_out_l" href="#"><img src="images/menu_0.jpg" alt="#"/></a></li>
             	<li class="menu_1"><a class="menu_1 active" href="#"><img src="images/menu_1.jpg" alt="#"/></a></li>
                 <li class="menu_2"><a class="menu_2" href="#"><img src="images/menu_2.jpg" alt="#"/></a></li>
-                <li class="menu_3">
-                	<a class="menu_3" href="#"><img src="images/menu_3.jpg" alt="#"/></a>
-                </li>
-                <li class="menu_4">
-                	<a class="menu_4" href="#"><img src="images/menu_4.jpg" alt="#"/></a>
-                </li>
+                <li class="menu_3"><a class="menu_3" href="#"><img src="images/menu_3.jpg" alt="#"/></a></li>
+                <li class="menu_4"><a class="menu_4" href="#"><img src="images/menu_4.jpg" alt="#"/></a></li>
                 <li class="menu_5"><a class="menu_5" href="#"><img src="images/menu_5.jpg" alt="#"/></a></li>
                 <li class="menu_6"><a class="menu_6" href="#"><img src="images/menu_6.jpg" alt="#"/></a></li>
-                <li class="menu_7"><a class="menu_7" href="#"><img src="images/menu_7.jpg" alt="#"/></a></li>
+                <li class="menu_out_r"><a class="menu_out_r" href="#"><img src="images/menu_7.jpg" alt="#"/></a></li>
             </ul>
         </div>
     </div>
+    <div style="clear:both"></div>
     <!--content mid-->
     <div id="mid">
     	<div class="inner">
         	<!--mid left-->
             <div class="mid_left">
-            	<div class="content_left">
-                    <div class="box_1">
+            	<ul class="content_left">
+                    <li class="box_1">
                     	<div class="title_1"><img src="images/title_1.png" alt="#"/></div>
-                    	<img src="images/img_1.jpg" alt="#"/>
+                    	<img src="images/img_1.jpg" alt="#" class="img_box"/>
                         <p>シミ・シワ・たるみ・ツヤ・ハリなど人によってお悩みが異なります。当サロンでは、お肌の状態に合わせたオーダーメ</p>
                         <a href="#"><img src="images/button_1.png" class="img_button" alt="#"/></a>
-                    </div>
-                    <div class="box_2 box_1">
+                    </li>
+                    <li class="box_2 box_1">
                     	<div class="title_1">
                         	<img src="images/title_3.png" alt="#" style="float:left"/>
-                            <img src="images/button_3.png" alt="#" style="float:right"/>
+                            <img src="images/button_3.png" alt="#" style="float:right" class="button_r"/>
                         </div>
-                        <div class="box_2_text">
-                            <p class="text_left">2014/○○/××</p>
-                            <p class="text_right">0.00 5月14日 (水) は都合により5時で</p>
-                            <p class="text_left">2014/○○/××</p>
-                            <p class="text_right">タイトルはいりますタイトルはい き上で、治療のご させていただ</p>
-                            <p class="text_left">2014/○○/××</p>
-                            <p class="text_right">タイトルはいり</p>
-                    	</div>
-                    </div>
-                    <div class="box_1">
+                        <div style="clear:both"></div>
+                        <dl class="box_2_text">
+                            <dt>2014.00.00</dt>
+                            <dd>0.00 5月14日 (水) は都合により5時で</dd>
+                            <dt>2014.00.00</dt>
+                            <dd>タイトルはいりますタイトルはい き上で、治療のご</dd>
+                            <dt>2014.00.00</dt>
+                            <dd>タイトルはいり</dd>
+                    	</dl>
+                    </li>
+                    <li class="box_1">
                     	<div class="title_1"><img src="images/title_2.png" alt="#"/></div>
-                    	<img src="images/img_2.jpg" alt="#"/>
+                    	<img src="images/img_2.jpg" alt="#" class="img_box"/>
                         <p>シミ・シワ・たるみ・ツヤ・ハリなど人によってお悩みが異なります。当サロンでは、お肌の状態に合わせたオーダーメ</p>
                         <a href="#"><img src="images/button_2.png" class="img_button" alt="#"/></a>
-                    </div>
-                    <div class="box_1">
-                    	<img src="images/img_3.jpg" alt="#"/>
-                    </div>
-                    <div class="box_5">
+                    </li>
+                    <li class="box_1 box_2">
+                    	<img src="images/img_3.jpg" alt="#" style="width:100%; height:100%"/>
+                    </li>
+                    <li class="box_5">
+                    	<img class="pin" src="images/img_pin.jpg" alt="#"/>
                     	<div class="title_5"><img src="images/title_6.png" alt="#"/></div>
                         <div class="box_ul">
                             <ul>
@@ -111,17 +114,18 @@
                             </ul>
                         </div>
                         <div class="box_text">
-                        	<p>
-                            	当院が行っている「録」「条」「マッサ=ジ」「指圧」 「あん摩」などの東洋医学は、薬などを用いないため体に 負担をかけずに症状を改善することが可能で<br/>
-                                「少し調子が悪いな」「何だか肩こりが辛い」というよう な病院に行くのを露ってしまう程度の症状でも、気軽に お越しいただき、早い段階で治療をお受けいただくことに よって大きな病気を予防することにつながりま<br/>
-                                また、症状だけを見るのではなく、症状の原因となる生活 * 習慣や身体の作りなどをトータルで診させていただき、根 本的な改善を目指していき<br/>
-                                私は治療を行うだけではなく、患者様の健康管理を行わせ ていただきたいと考えておりますので、彗細な悩みでも是がり<br/>
-                            </p>
+                        	<div class="text">
+                                <p>当院が行っている「録」「条」「マッサ=ジ」「指圧」 「あん摩」などの東洋医学は、薬などを用いないため体に 負担をかけずに症状を改善することが可能で</p>
+                                <p>「少し調子が悪いな」「何だか肩こりが辛い」というよう な病院に行くのを露ってしまう程度の症状でも、気軽に お越しいただき、早い段階で治療をお受けいただくことに よって大きな病気を予防することにつながりま</p>
+                                <p>また、症状だけを見るのではなく、症状の原因となる生活 * 習慣や身体の作りなどをトータルで診させていただき、根 本的な改善を目指していき</p>
+                                <p>私は治療を行うだけではなく、患者様の健康管理を行わせ ていただきたいと考えておりますので、彗細な悩みでも是がりな悩みでも是がり</p>
+                            </div>
                             <a href="#"><img src="images/img_8.jpg" class="img_button" alt="#"/></a>
+                            <div style="clear:both"></div>
                         </div>
-                        <a href="#" class="button_6"><img src="images/button_6.png" class="img_button" alt="#"/></a>
-                    </div>
-                </div>
+                        <a href="#" class="button_6"><img src="images/button_6.png" alt="#" class="img_button"/></a>
+                    </li>
+                </ul>
             </div>
             <!--mid right-->
             <div class="mid_right">
@@ -129,52 +133,56 @@
                 	 <div class="box_aside">
                     	<div class="title_1">
                             <img src="images/title_4.png" alt="#" style="float:left"/>
-                            <img src="images/button_4.png" alt="#" style="float:right"/>
+                            <img src="images/button_4.png" alt="#" style="float:right" class="button_r img_button"/>
                         </div>
                         <iframe class="aside_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.7136984023587!2d135.96207135!3d35.021036300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001723f9708dfb9%3A0x6d87c805d6cb0942!2z5pel5pysLCDjgJI1MjUtMDAzMiDmu4vos4DnnIzojYnmtKXluILlpKfot6_vvJHkuIHnm67vvJjiiJLvvJEg5Y2X5rSL6LuS44OT44Or!5e0!3m2!1sja!2sus!4v1405654673651"></iframe>
-                        <a href="#"><img src="images/button_map.png" class="img_button" alt="#"/></a>
+                        <a href="#"><img src="images/button_map.png" class="button_map img_button" alt="#"/></a>
                     </div>
-                    <div class="box_aside">
+                    <div class="box_aside_1 box_aside">
                     	<div class="title_1">
                             <img src="images/title_5.png" alt="#" style="float:left"/>
-                            <img src="images/button_5.png" alt="#" style="float:right"/>
+                            <img src="images/button_5.png" alt="#" style="float:right" class="button_r img_button"/>
                         </div>
-                        <a href="#"><img src="images/img_4.jpg" class="img_button" alt="#"/></a>
-                        <div class="box_aside_l">
-                        	<p>
+                        <a href="#"><img src="images/img_4.jpg" alt="#"/></a>
+                        <ul class="box_aside_l">
+                        	<li>
                             	<img src="images/bullet_2.png" alt="#"/>
-                                <img src="images/bullet_7.png" alt="#"/>8:30~23:00</p>
-                            <p>
+                                <img src="images/bullet_7.png" alt="#" class="bullet"/>
+                                <strong>8:30~23:00</strong></li>
+                            <li>
                             	<img src="images/bullet_3.png" alt="#"/>
-                                <img src="images/bullet_7.png" alt="#"/>8:30~11:00</p>
-                            <p>
+                                <img src="images/bullet_7.png" alt="#"/>
+                                <strong>8:30~11:00</strong></li>
+                            <li>
                             	<img src="images/bullet_4.png" alt="#"/>
-                                <img src="images/bullet_7.png" alt="#"/>19:00~21:00</p>
+                                <img src="images/bullet_7.png" alt="#"/>
+                                <strong>19:00~21:00</strong></li>
+                        </ul>
+                        <div class="box_aside_r">
+                        	<a href="#"><img src="images/img_5.jpg" class="img_button" alt="#"/></a>
                         </div>
-                        <a href="#"><img src="images/img_9.jpg" class="img_button" alt="#"/></a>
-                        <a href="#"><img src="images/img_6.jpg" class="img_button" alt="#"/></a>
-                        <a href="#"><img src="images/img_7.jpg" class="img_button" alt="#"/></a>
-                        <div class="box_aside_r"></div>
                     </div>
+                    <a href="#"><img src="images/img_9.jpg" class="img_aside img_button" alt="#"/></a>
+                    <a href="#"><img src="images/img_6.jpg" class="img_aside img_button" alt="#"/></a>
+                    <a href="#"><img src="images/img_7.jpg" class="img_aside img_button" alt="#"/></a>
                 </div>
             </div>
         </div>
     </div>
     <!--footer-->
     <div id="footer">
-    	<img src="images/line_footer.jpg" alt="#"/>
     	<div class="inner">
         	<!--menu 1-->
         	<div class="f_1">
-            	<a href="index.html"><img src="images/logo.png" alt="#"/></a>
+            	<a href="index.html"><img src="images/logo.png" alt="#" class="logo_footer"/></a>
                 <p class="f_1_text">
                 	〒525-0032　滋賀県草津市大路1丁目8-1南洋軒ビル6F<br/>
                     草津駅東口より徒歩2分<br/>
                 </p>
                 <p><a href="#"><img src="images/button_footer.png" alt="#"/></a></p>
                 <p>
-                	<a href="#"><img src="images/tel_footer.png" alt="#"/></a><br/>
-                    撈常090=8809=1182<br/>
+                	<a href="#"><img src="images/tel_footer.jpg" alt="#"/></a><br/>
+                    撈常090-8809-1182<br/>
                     Mail hydeo2012@docomo.ne.jp
                 </p>
             </div>
@@ -205,7 +213,7 @@
     <p id="page_top"><a href="#"><img src="images/page_top.png"</a></p>
     <!--copyright-->
     <div id="copyright">
-    	<p>Copyright　Feminine（フェミニン）　All Rights Reserved.</p>
+    	<p>©2014 　滋賀県草津市大路</p>
     </div>
   </body>
 </html>
