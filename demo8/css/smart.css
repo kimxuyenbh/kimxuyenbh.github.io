@@ -1,0 +1,102 @@
+/*@media screen call responsive*/
+@media screen and (max-width: 644px) {
+#header {
+	float:none;
+}
+.inner,
+.header_left img {
+	height:auto;
+	margin:0 auto;
+	padding:0 1%;
+	text-align:center;
+	width:98%;
+	min-width:0;
+}
+#banner {
+	display:none;
+}
+#mid {
+	float:none;
+}
+#mid .mid_top ul.box li.box_1 {
+	float:none;
+	display:inline-block;
+	margin:7px;
+}
+#mid .mid_top .img_bot_banner {
+	width:98%;
+	min-width:50%;
+	text-align:center;
+	width:100%;
+	margin:7px auto;
+}
+#mid .mid_top ul.img_mid_top li {
+	float:none;
+	margin:7px auto;
+}
+#mid .mid_left {
+	width:100%;
+	float:none;
+	margin:7px auto;
+	display:inline-block;
+}
+#mid .mid_right,
+#mid .mid_right .title_inner {
+	height:auto;
+	margin:0 auto;
+	text-align:center;
+	width:98%;
+	min-width:0;
+}
+#mid .mid_right .title_inner {
+	width:100%;
+}
+#mid .mid_right dl {
+	width:auto;
+	height:auto;
+	padding:0 1%;
+	text-align:left;
+	width:98%;
+	min-width:50%;
+}
+#mid .mid_right dl dt {
+	float:none;
+	margin-bottom:5px;
+}
+#mid .mid_right dl dd {
+	display:block;
+    padding-left: 23px;
+	width:auto;
+}
+#mid .mid_left {
+	float:none;
+	margin:25px auto;
+}
+#footer {
+	float:none;
+}
+#footer .f_1 ul li {
+	float:none;
+	margin:5px;
+}
+#footer .f_1 ul {
+	width:100%;
+	display:inline-block;
+}
+#footer .f_1 .img_9 {
+	height:auto;
+	margin:0 auto;
+	text-align:center;
+	width:98%;
+	min-width:0;
+}
+#footer .f_2 span,
+#copyright {
+	width:100%;
+	text-align:center;
+	height:auto;
+	float:none;
+	display:block;
+	margin:0px auto;
+}
+}
