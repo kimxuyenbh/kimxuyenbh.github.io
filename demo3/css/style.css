@@ -1,4 +1,5 @@
 ﻿* {
+	border:0;
 	margin:0px;
 	padding:0px;
 }
@@ -32,6 +33,13 @@ h1 {
 #mid .img_button:hover {
 	opacity:0.6;
 	filter:alpha(opacity=60);
+}
+.ClearFix::after{
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
 }
 /*header*/
 #header {
@@ -242,6 +250,7 @@ h1 {
 	margin-bottom:20px;
 	width:100%;
 	max-width:636px;
+	min-width:636px;
 	height:auto;
 	float:left;
 	background:url(../images/bg_content.jpg) no-repeat;
@@ -254,6 +263,9 @@ h1 {
 	list-style:none;
 	float:left;
 	width:311px;
+	max-width:311px;
+	min-width:311px;
+	height:auto;
 }
 #mid .content_l2_text ul li {
 	background:#ffffff;
@@ -262,37 +274,47 @@ h1 {
 	border:1px solid #d9cbb1;
 	border-radius:8px;
 	width:100%;
-	height:135px;
+	height:auto;
 }
 #mid .content_l2_text ul li p {
-	width:274px;
+	max-width:274px;
 	text-align:left;
 	color:#705a45;
 	line-height:22px;
 	font-size:13px;
-	margin:23px 0px 0px 14px;
+	padding:23px 0px 15px 14px;
 }
 #mid .img_button_2 {
 	display:inline-block;
 	margin:3px 164px 0px 164px;
 }
-#mid .img_button_3 {
+#mid .img_button_2 img {
+	width:310px;
+	max-width:310px;
+	min-width:310px;
+	height:auto;
+}
+#mid .content_l2_btn img.img_button_3 {
+	width:411px;
+	max-width:411px;
+	min-width:411px;
+	height:45px;
 	float:left;
 }
-#mid .img_button_4 {
+#mid .content_l2_btn img.img_button_4 {
 	float:right;
 }
 #mid .title_4 {
 	margin:50px 0px 15px 0px;;
 }
-#mid .text_left {
+#mid dl dt {
 	background:url(../images/img_next.png) no-repeat left;
 	margin-left:7px;
 	padding-left:17px;
 	float:left;
 	text-align: left;
 }
-#mid .text_right {
+#mid dl dd {
 	padding:0px 0px 15px 141px;
 	border-bottom:1px solid #d9cbb1;
 	margin-bottom:15px;
@@ -436,17 +458,21 @@ h1 {
 	padding-right:5px;
 	margin-bottom:-2px;
 }
+#footer img.img_footer_2 {
+	width:470px;
+	height:49px;
+	max-width:470px;
+	min-width:470px;
+}
 /*page top*/
 #page_top {
-	float:left;
 	display:block;
-	margin:0 auto;
 	width:100%;
 	max-width:48px;
 	min-width:48px;
-	position:fixed;
-	bottom:300px;
-	right:15%;
+	position:absolute;
+	top:-60px;
+	right:10px;
 }
 #page_top a {
 	display:block;
