@@ -16,6 +16,13 @@ a {
 ul {
 	list-style:none;
 }
+.ClearFix::after{
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
 /*header*/
 #header {
 	border-top:4px solid #f0831e;
@@ -49,8 +56,10 @@ ul {
 	float:right; 
 }
 .header_right img {
+	width:202px;
 	max-width:202px;
 	min-width:202px;
+	height:26px;
 }
 .header_right_text {
 	color:#f0831e;
@@ -282,7 +291,7 @@ ul {
 #mid .content_r_2_1 ul {
 	list-style:none;
 }
-#mid .img_li {
+#mid .content_r_2_1 ul li.img_li {
 	font-size:14px;
 	width:178px;
 	padding-left:15px;
