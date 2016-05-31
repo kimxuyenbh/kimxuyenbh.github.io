@@ -19,6 +19,13 @@ ul {
 .img_button:hover {
 	opacity:0.6;
 }
+.ClearFix::after{
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
 /*header*/
 #header {
 	background:url(../images/border_top.jpg) repeat-x left top;
@@ -34,8 +41,8 @@ ul {
 	height:auto;
 	display:block;
 	margin:0 auto;
-	min-width:973px;
 	max-width:973px;
+	min-width:973px;
 	position:relative;
 }
 .header_left {
@@ -213,7 +220,7 @@ ul {
 	float:left;
 	vertical-align:top;
 }
-#mid .box_1 p {
+#mid  .p_text {
 	display:inline-block;
 	float:right;
 	max-width:153px;
@@ -266,7 +273,7 @@ ul {
 #mid .box_5 {
 	border-radius:3px;
 	display:block;
-	padding:0px 17px 22px 17px;
+	padding:0px 17px;
 	max-width:642px;
 	height:auto;
 	border:10px solid #f1e28b;
@@ -276,7 +283,8 @@ ul {
 	vertical-align:top;
 }
 #mid .title_5 {
-	text-align:left;
+	float:right;
+	text-align:right;
 	display:inline-block;
 	width:100%;
 	height:7px;
@@ -286,7 +294,7 @@ ul {
 }
 #mid .title_5 img {
 	max-width:100%;
-	margin:0px auto;
+	margin-right:75px;
 }
 #mid .box_ul,
 #mid .box_text {
@@ -302,15 +310,6 @@ ul {
 #mid .box_text {
 	margin-top:30px;
 	background:#ffffff;
-}
-#mid .box_text a {
-	max-width:
-}
-#mid .box_text .text {
-	color:#7a7a7a;
-	max-width:354px;
-	height:auto;
-	float:left;
 }
 #mid .box_ul ul {
 	max-width:270px;
@@ -329,7 +328,13 @@ ul {
 #mid .box_text p {
 	margin-bottom:30px;
 }
-#mid .box_text img {
+#mid .text {
+	color:#7a7a7a;
+	max-width:354px;
+	height:auto;
+	float:left;
+}
+#mid .img_8 {
 	float:right;
 }
 #mid .box_5 .box_text a.button_6 {
@@ -338,8 +343,16 @@ ul {
 	height:auto;
 	margin:0 auto;
 }
-#mid .box_5 .box_text a.button_6 img {
-	margin:0px auto;
+#mid  a.button_6 {
+	margin-bottom:22px;
+	float:right;
+	text-align:right;
+	display:block;
+	width:100%;
+	height:25px;
+}
+#mid  a.button_6 img {
+	margin-right:260px;
 }
 #mid .pin {
 	position:absolute;
@@ -390,7 +403,7 @@ strong {
 #footer {
 	width:100%;
 	height:auto;
-	display:block;
+	display:inline-block;
 	float:left;
 	background:url(../images/line_footer.jpg) repeat-x left top;
 	margin-top:50px;
@@ -416,12 +429,20 @@ strong {
 #footer .f_1_text {
 	margin:8px 0px 20px 0px;
 }
-#footer .f_1 p {
+#footer .f_1 p.tel_footer {
 	margin-bottom:20px;
 }
 #footer .f_1 .logo_footer {
 	max-width:350px;
 	height:auto;
+}
+#footer .f_1 p.button_footer {
+	margin-bottom:15px;
+	float:right;
+	text-align:right;
+	display:block;
+	width:100%;
+	height:18px;
 }
 /*menu 2*/
 #footer .f_2 {
@@ -435,7 +456,6 @@ strong {
 }
 #footer .f_2 ul {
 	width:175px;
-	list-style:none;
 	float:left;
 }
 #footer .f_2 ul li {
