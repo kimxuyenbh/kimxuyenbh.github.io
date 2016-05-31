@@ -23,6 +23,9 @@
 	display:inline-block;
 	margin:7px;
 }
+#mid .title_1 {
+	margin:17px 0px 0px -16px;
+}
 #mid .mid_top .img_bot_banner {
 	width:98%;
 	min-width:50%;
