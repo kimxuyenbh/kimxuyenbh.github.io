@@ -79,7 +79,7 @@ a.meanmenu-reveal {
 	display:none;
 	}
 .mean-container .mean-nav ul li.menu_1 a{
-	background:url(../images/menu_1.jpg) no-repeat center center;
+	background:url(../images/menu_1_hover.png) no-repeat center center;
 	}	
 .mean-container .mean-nav ul li.menu_2 a{
 	background:url(../images/menu_2.jpg) no-repeat center center;
@@ -96,59 +96,15 @@ a.meanmenu-reveal {
 .mean-container .mean-nav ul li.menu_6 a{
 	background:url(../images/menu_6.jpg) no-repeat center center
 	}	
-
-.mean-container .mean-nav ul li.menu_1 a:hover,
-.mean-container .mean-nav ul li.menu_1 a.active{
-	background:url(../images/menu_1_hover.png) no-repeat center center;
-	}	
+.mean-container .mean-nav ul li.menu_1 a:hover,	
 .mean-container .mean-nav ul li.menu_2 a:hover,
-.mean-container .mean-nav ul li.menu_2 a.active{
-	background:url(../images/menu_2_hover.png) no-repeat center center;
-	}
 .mean-container .mean-nav ul li.menu_3 a:hover,
-.mean-container .mean-nav ul li.menu_3 a.active{
-	background:url(../images/menu_3_hover.png) no-repeat center center
-	}
 .mean-container .mean-nav ul li.menu_4 a:hover,
-.mean-container .mean-nav ul li.menu_4 a.active{
-	background:url(../images/menu_4_hover.png) no-repeat center center
-	}
 .mean-container .mean-nav ul li.menu_5 a:hover,
-.mean-container .mean-nav ul li.menu_5 a.active{
-	background:url(../images/menu_5_hover.png) no-repeat center center
+.mean-container .mean-nav ul li.menu_6 a:hover,	
+.mean-container .mean-nav ul li.menu_7 a:hover {
+	opacity:0.6;
 	}
-.mean-container .mean-nav ul li.menu_6 a:hover,
-.mean-container .mean-nav ul li.menu_6 a.active{
-	background:url(../images/menu_6_hover.png) no-repeat center center
-	}	
-.mean-container .mean-nav ul li ul.subMenu li.subMenu {
-	border-top:1px solid #edf7f8;
-	border-bottom:none;
-    height: auto !important;
-    margin: 0 !important;
-    padding: 0px !important;
-    text-align: center;
-    width: 100%;
-	background:#fefcf6 !important;
-}
-.mean-container .mean-nav ul li ul.subMenu li.subMenu a {
-    float: none !important;
-    font-size: 14px;
-    height: auto !important;
-    margin-top: 0 !important;
-    text-align: center;
-	padding-top:15px !important;
-	padding-bottom:15px !important;
-	color:#595959;
-	font-weight:bold;
-	background:none !important;
-}
-.mean-container .mean-nav ul li ul.subMenu li.subMenu a:hover {
-    text-decoration:underline;
-	background:none !important;
-
-}
-
 a.mean-expand{
 	height:36px !important;
 	position:absolute;

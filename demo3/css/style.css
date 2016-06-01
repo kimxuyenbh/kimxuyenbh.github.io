@@ -120,33 +120,14 @@ h1 {
 	text-align:center;
 	display:block;
 }
-#menu ul li a.menu_1:hover img,
-#menu ul li.menu_1 a.active img,
-#menu ul li a.menu_2:hover img,
-#menu ul li a.menu_3:hover img,
-#menu ul li a.menu_4:hover img,
-#menu ul li a.menu_5:hover img,
-#menu ul li a.menu_6:hover img {
-	display:none;
-}
 #menu ul li a.menu_1:hover,
-#menu ul li.menu_1 a.active {
-	background:url(../images/menu_1_hover.png) no-repeat center center;
-}
-#menu ul li a.menu_2:hover {
-	background:url(../images/menu_2_hover.png) no-repeat center center;
-}
-#menu ul li a.menu_3:hover {
-	background:url(../images/menu_3_hover.png) no-repeat center center;
-}
-#menu ul li a.menu_4:hover {
-	background:url(../images/menu_4_hover.png) no-repeat center center;
-}
-#menu ul li a.menu_5:hover {
-	background:url(../images/menu_5_hover.png) no-repeat center center;
-}
-#menu ul li a.menu_6:hover {
-	background:url(../images/menu_6_hover.png) no-repeat center center;
+#menu ul li a.menu_2:hover,
+#menu ul li a.menu_3:hover,
+#menu ul li a.menu_4:hover,
+#menu ul li a.menu_5:hover,
+#menu ul li a.menu_6:hover,
+#menu ul li a.menu_7:hover {
+	opacity:0.6;
 }
 /*banner*/
 #banner {
