@@ -152,14 +152,14 @@ ul {
 #mid .title_1 {
 	margin:17px 0px 0px -7px;
 }
-#mid .img_box_1 {
+#mid p.img_box_1 {
 	margin:10px 20px 0px 20px;
 }
 #mid .img_box_1 img {
 	width:175px;
 	border:5px solid #ffffff;
 }
-#mid .box_1 p {
+#mid .box_1 p.text_box_1 {
 	font-weight:bold;
 	margin:14px 20px 5px 20px;
 	height:85px;
@@ -223,6 +223,17 @@ ul {
 	max-width:643px;
 	min-width:643px;
 	height:auto;
+}
+#mid .mid_right a.img_inner {
+	width:100%;
+	height:105px;
+	display:block;
+}
+#mid .mid_right a.img_inner img {
+	width:643px;
+	height:105px;
+	max-width:643px;
+	min-width:643px;
 }
 #mid dl {
 	margin-top:10px;
