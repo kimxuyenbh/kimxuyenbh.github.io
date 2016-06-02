@@ -190,7 +190,7 @@ ul {
 	margin-top:25px;
 	max-width:645px;
 	height:auto;
-	float:left
+	float:left;
 }
 #mid .line_title {
 	margin:0px;
@@ -271,10 +271,12 @@ ul {
 	text-align: left;
 }
 #mid .box_5 {
+	width:590px;
 	border-radius:3px;
-	display:block;
+	display:inline-block;
 	padding:0px 17px;
-	max-width:642px;
+	max-width:590px;
+	min-width:590px;
 	height:auto;
 	border:10px solid #f1e28b;
 	position:relative;
@@ -329,12 +331,14 @@ ul {
 	margin-bottom:30px;
 }
 #mid .text {
+	text-align:left;
+	width:100%;
 	color:#7a7a7a;
 	max-width:354px;
 	height:auto;
 	float:left;
 }
-#mid .img_8 {
+#mid .box_5 .box_text .img_8 {
 	float:right;
 }
 #mid .box_5 .box_text a.button_6 {
@@ -388,9 +392,6 @@ ul {
 }
 #mid .box_aside_1 .title_1 {
 	margin-bottom:10px;
-}
-strong {
-	font-weight:normal;
 }
 #mid .box_aside_r {
 	margin-top:25px;

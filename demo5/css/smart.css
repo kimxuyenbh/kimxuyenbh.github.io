@@ -11,7 +11,7 @@
 	padding:0 1%;
 	text-align:center;
 	width:98%;
-	min-width:0%;
+	min-width:0;
 }
 .header_right_1,
 .header_right_2 {
@@ -67,17 +67,24 @@
 	float:none;
 }
 #mid .box_5 {
+	float:none;
 	width:92%;
-	min-width:0%;
+	min-width:0;
 	height:auto;
 	margin:0 auto;
 	padding:0 1%;
 	text-align:center;
 }
-#mid .img_8 {
-	text-align:center;
+#mid .box_5 .box_text {
+	width:100%;
 	float:none;
 	margin:7px auto;
+	display:inline-block;
+}
+#mid .box_5 .box_text .img_8 {
+	margin:7px auto;
+	display:block;
+	float:none;
 }
 #mid .box_5 .box_ul ul {
 	margin:7px auto;
@@ -116,7 +123,7 @@
 	padding:0 1%;
 	text-align:center;
 	width:98%;
-	min-width:0%;
+	min-width:0;
 }
 #footer .f_1 p.button_footer {
 	vertical-align:top;
