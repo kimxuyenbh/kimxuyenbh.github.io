@@ -1,20 +1,37 @@
 /*@media screen call responsive*/
-@media screen and (max-width: 644px) {
-#header {
-	float:none;
+@media screen and (max-width: 768px) {
+.mw100 {
+	max-width: 100% !important;
 }
+.mw40 {
+	max-width: 40% !important;
+}
+.mw20 {
+	max-width: 20% !important;
+}
+.mw60 {
+	max-width: 60% !important;
+}
+.mw80 {
+	max-width: 80% !important;
+}
+.mw85_sp {
+	max-width: 85% !important;
+}
+.fLeft,
+.fRight {
+	float:none
+	}
 .inner,
-.header_left,
-.header_right {
+.title_head,
+.header_img img,
+.f_1 {
 	height:auto;
-	margin:0 auto;
-	padding:0 1%;
+	margin:0px auto 7px auto;
+	padding:0 2%;
 	text-align:center;
-	width:98%;
+	width:96%;
 	min-width:0%;
-}
-.header_right {
-	margin:7px auto;
 }
 #banner {
 	display:none;
@@ -22,54 +39,49 @@
 #mid {
 	float:none;
 }
-#mid .mid_left, #mid .mid_right {
+.mid_left, .mid_right {
 	float:none;
 	text-align:center;
 	width:100%;
 	margin:7px auto;
 }
-#mid .box_1 {
-	float:none;
-	display:inline-block;
-	margin:5px;
-	padding-bottom:5px;
+.box_3 .fLeft,
+.aside_2 .title_box .fLeft {
+	float:left;
 }
-#mid .img_4 {
-	margin:20px auto 0px auto;
-	float:none;
-	display:inline-block;
+.box_3 .fRight,
+.aside_2 .title_box .fRight {
+	float:right;
 }
-#mid .text_img_4 {
+.box_1 p,
+.box_2 p {
 	text-align:left;
 	max-width:100%;
+	margin:7px auto;
 	display:block;
 	float:none;
 }
-#mid .img_button_4 {
-	margin:20px 17px 17px auto;
-	text-align:left;
+#page_top {
+	position:absolute;
+	top:-75px;
+	font-size:12px;
+	right:0px;
+	display:block;
 }
-#mid .title_4 {
-	width:98%;
-	min-width:0%;
-	height:auto;
-	margin:0 auto;
-	padding:0 1%;
+#page_top a {
+	 width:80px;
 }
-#mid .content_r_3_l,
-#mid .content_r_3_r {
-	float:none;
-	display:inline-block;
-	margin:5px;
-}
-#footer {
-	margin:30px auto 0px auto;
-	float:none;
+#page_top a:hover {
+	opacity:0.6;
 }
 #footer .f_1,
 #footer .f_2,
-#footer .f_3,
-#footer .f_4,
+#footer .f_3 {
+	width:96%;
+	margin:5px auto;
+	display:inline-block;
+	float:left;
+}
 #footer .copyright {
 	text-align:center;
 	height:auto;
