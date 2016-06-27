@@ -1,28 +1,22 @@
 /*@media screen call responsive*/
 @media screen and (max-width: 768px) {
 .mw100 {
-	max-width: 100% !important;
-}
-.mw40 {
-	max-width: 40% !important;
-}
-.mw20 {
-	max-width: 20% !important;
-}
-.mw60 {
-	max-width: 60% !important;
-}
-.mw80 {
-	max-width: 80% !important;
-}
-.mw85_sp {
-	max-width: 85% !important;
+	width: 100%;
 }
 .fLeft,
 .fRight {
 	float:none
-	}
-.inner {
+}
+body  {
+	-webkit-text-size-adjust:100%
+	font-size:13px;
+	background:#dcddc1;
+}
+#header,
+#mid,
+#banner,
+#footer,
+.title {
 	height:auto;
 	margin:0 auto;
 	padding:0 1%;
@@ -30,13 +24,49 @@
 	width:98%;
 	min-width:0;
 }
-#banner {
-	display:none;
+.inner {
+	height:auto;
+	margin:0 auto;
+	text-align:center;
+	width:98%;
+	min-width:0;
+}
+#menu_box {
+	height:auto;
+	width:100%;
+	padding:0;
+}
+#menu_box ul li {
+	height:auto;
+	margin:0 auto;
+	text-align:center;
+	width:98%;
+	min-width:0;
+	float:none;
+	display:inline-block;
+}
+.box_1 {
+	height:auto;
+}
+.title_1 {
+	margin:0px;
+}
+.img_4 {
+	margin:0px;
+	width:50%;
+	float:left;
+}
+.box_1 .text {
+	margin:40px 20px auto 0px;
+	float:right;
+	width:38%;
 }
 #mid {
 	float:none;
 }
-#mid .mid_left {
+#mid .mid_left,
+#mid .mid_right {
+	padding:0px;
 	width:100%;
 	float:none;
 	margin:7px auto;
@@ -44,52 +74,50 @@
 }
 #mid .content_l1_text {
 	text-align:left;
-	max-width:100%;
+	max-width:95%;
 	margin:7px auto;
 	display:block;
 	float:none;
+	padding-right:5px;
 }
-#mid .box_1 {
-	float:none;
-	display:inline-block;
-	margin:5px;
-	padding-bottom:5px;
+#mid dl dt {
+	float:left;
+	margin-bottom:5px;
+}
+#mid dl dd {
+	display:block;
+    padding-left: 95px;
+	width:auto;
 }
 #mid .mid_right {
 	float:none;
 	margin:25px auto;
 }
-#mid dl dt {
-	float:none;
-	margin-bottom:5px;
-}
-#mid dl dd {
-	display:block;
-    	padding-left: 23px;
-	width:auto;
-}
-#footer {
-	margin-top:50px;
-	padding-bottom:30px;
-}
-#footer .f_1 {
-	float:none;
-	margin:30px auto 7px auto;
-}
-#footer .f_2 {
+.img_11 {
+	height:100px;
+	margin-left:12px;
+	text-align:center;
 	width:90%;
-	float:none;
-	display:inline-block;
-	margin:7px auto;
-	padding:20px 20px 16px 20px;
+	min-width:0;
 }
-.f_2 ul li {
-	float:none;
+.img_13 {
+	margin-left:10px;
+	float:left;
+}
+#footer ul {
+	padding-bottom:20px;
+	width:100%;
 	display:inline-block;
-	margin:5px auto;
+}
+#footer ul li {
+	width:100%;
+	display:inline-block;
 	padding-bottom:5px;
 }
 #copyright {
 	padding:10px 0px;
+}
+#copyright .text-right {
+	margin-top:-65px;
 }
 }
