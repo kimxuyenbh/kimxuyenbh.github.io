@@ -12,6 +12,8 @@ body  {
 	font-size:13px;
 	background:#dcddc1;
 }
+.show-pc { display: none !important; }
+.show-sp { display: block !important; }
 #header,
 #mid,
 #banner,
@@ -45,7 +47,8 @@ body  {
 	float:none;
 	display:inline-block;
 }
-.box_1 {
+.box_1,
+.box_chiba {
 	height:auto;
 }
 .title_1 {
@@ -84,11 +87,35 @@ body  {
 	float:left;
 	margin-bottom:5px;
 }
-#mid dl dd {
+#mid .content_left_3 dl dd {
 	display:block;
     padding-left: 95px;
 	width:auto;
 }
+/*chiba*/
+.content_left_2_chiba ul li {
+	width:100%;
+	height:auto;
+	display:block;
+	margin:0px auto;
+}
+.content_left_2_chiba dl dd {
+	display:block;
+    padding-left: 5px;
+	width:auto;
+}
+.content_l1_text_chiba {
+	text-align:left;
+	max-width:95%;
+	margin:7px auto;
+	display:block;
+	float:none;
+	padding-right:5px;
+}
+.content_left_4 {
+	display:none;
+}
+/*chiba*/
 #mid .mid_right {
 	float:none;
 	margin:25px auto;

@@ -16,6 +16,8 @@ a {
 ul {
 	list-style:none;
 }
+.show-pc { display: block !important; }
+.show-sp { display: none !important; }
 .ClearFix::after{
     content: ".";
     clear: both;
@@ -366,6 +368,7 @@ strong {
 .content_left_2_chiba ul li {
 	height:auto;
 	width:48%;
+	max-width:100%;
 }
 .bg_yellow_highlight {
 	background:#959645;
@@ -381,7 +384,7 @@ strong {
 .content_left_2_chiba dl.dl_chiba dd {
 	padding:0px 0px 0px 10px;
 	border-bottom:none;
-	background:url(../images/bullet_2.png) no-repeat left center;
+	background:url(../images/bullet_2.png) no-repeat left top;
 	color:#336699;
 	text-align: left;
 	text-decoration:underline;
@@ -423,7 +426,7 @@ strong {
 	height:auto;
 	float:right;
 }
-#mid .mid_right ul {
+#mid .mid_right ul, {
 	width:100%;
 	height:auto;
 	list-style:none;
