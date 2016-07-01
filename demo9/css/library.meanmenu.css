@@ -10,7 +10,7 @@ a.meanmenu-reveal {
 	float:left;
 	width: 100%;
 	position: relative;
-	background:#f0831e;
+	background:#503625;
 	padding: 4px 0;
 	min-height: 42px;
 	z-index: 999999;
@@ -79,19 +79,19 @@ a.meanmenu-reveal {
 	display:none;
 	}
 .mean-container .mean-nav ul li.menu_1 a{
-	background:url(../images/menu_1.jpg) no-repeat center center;
+	background:url(../images/menu_1.png) no-repeat center center;
 	}	
 .mean-container .mean-nav ul li.menu_2 a{
-	background:url(../images/menu_2.jpg) no-repeat center center;
+	background:url(../images/menu_2.png) no-repeat center center;
 	}
 .mean-container .mean-nav ul li.menu_3 a.menu_3{
-	background:url(../images/menu_3.jpg) no-repeat center center
+	background:url(../images/menu_3.png) no-repeat center center
 	}
 .mean-container .mean-nav ul li.menu_4 a{
-	background:url(../images/menu_4.jpg) no-repeat center center
+	background:url(../images/menu_4.png) no-repeat center center
 	}
 .mean-container .mean-nav ul li.menu_5 a{
-	background:url(../images/menu_5.jpg) no-repeat center center
+	background:url(../images/menu_5.png) no-repeat center center
 	}
 .mean-container .mean-nav ul li.menu_1 a:hover,
 .mean-container .mean-nav ul li.menu_2 a:hover,
