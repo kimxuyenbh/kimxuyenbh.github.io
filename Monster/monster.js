@@ -1,3 +1,5 @@
+// variable flag
+var isGameOver = 0;
 //create object monster
 var Monster = function(img,pX,pY,eX,eY,eL,sX,sY) {
 	//speed

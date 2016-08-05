@@ -78,8 +78,8 @@
 			drawBoom();		
 			drawMonster();
 			drawBlood();
-			drawGameWin();
 			drawGameOver();
+			drawGameWin();
 		}
 		drawReset();
 		drawPause();
@@ -170,9 +170,9 @@ function drawGameWin() {
 		context.fillText('WIN', (canvas.width/2)- 40, canvas.height/2);
 		context.font = "bold 30px Arial";
 		context.fillText('YOUR SCORE: ' + score, centerX - 125, centerY + 30);
+
 	}
 	reAnima(drawGameWin);
-	cancelAnima(drawBlood);
 }
 //draw reset
 function drawReset() {
@@ -187,8 +187,12 @@ function drawBlood() {
 	reAnima(drawBlood);
 }
 function mousedown(e) {
-	if (gamePause == true)
+	if (gamePause == true) {
 		return;
+	}
+	if (isGameOver == 1) {
+		return;
+	}
 	positionMouse.x = e.pageX - canvas.offsetLeft;
 	positionMouse.y = e.pageY - canvas.offsetTop;
 	var tmp = 0;
@@ -202,15 +206,17 @@ function mousedown(e) {
 				score += 10;	
 			}
 		}
-		if (tmp == 0)
-			score -= 10;
-		heart--;
+		if (tmp == 0) {
+				score -= 10;
+			}
+		heart--;	
 		if (numMons == 0) {
+			isGameOver = 1;
 			gameWin = true;
 			console.log("win");
 		}
-	}
-	if (heart == 0) {
+	} else {
+		isGameOver = 1;
 		gameOver = true;
 		numMons = 0;
 		console.log("lose");
@@ -221,11 +227,6 @@ function mousedown(e) {
 		dieMons = false;
 	}
 }
-//draw blood when click button boom
-function drawBloodBoom() {
-	context.drawImage(imgBlood, (canvas.width/2) - 60, (canvas.height/2) - 50, 120, 120);
-	reAnima(drawBloodBoom);
-}
 //position mouse click top canvas
 function mousedownTop(e) {
 	var mouseClickX = e.pageX - canvasTop.offsetLeft;
@@ -235,10 +236,12 @@ function mousedownTop(e) {
 	if (mouseClickX >= 420 && mouseClickX <= 470 && mouseClickY >= 25 && mouseClickY <= 50) {
 		location.reload();
 	}
-	if (mouseClickX >= 280 && mouseClickX <= 330 && mouseClickY >= 25 && mouseClickY <= 50) {
+	if (gamePause == false && mouseClickX >= 280 && mouseClickX <= 330 && mouseClickY >= 25 && mouseClickY <= 50) {
 		numMons = 0;
 		heart = 3;
-		drawBloodBoom();
+		gameOver = true;
+		isGameOver = 1;
+		
 	}
 	if (mouseClickX >= 350 && mouseClickX <= 400 && mouseClickY >= 25 && mouseClickY <= 50) {
 		gamePause = !gamePause
