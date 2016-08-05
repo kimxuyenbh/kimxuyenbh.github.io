@@ -33,7 +33,9 @@
 	dieMons = false;
 
 	//method requestAnimationFrame
-	reAnima = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame || window.oRequestAnimationFrame;
+	reAnima = window.requestAnimationFrame || window.mozRequestAnimationFrame 
+	|| window.webkitRequestAnimationFrame || window.msRequestAnimationFrame 
+	|| window.oRequestAnimationFrame;
 	cancelAnima = window.cancelAnimationFrame || window.mozCancelAnimationFrame;
 
 	//create image
@@ -105,7 +107,7 @@ function createMonster() {
 	monster[5] = new Monster(imgMonster, 0, 490, 80, 0, -55, 1.5, 0);
 	monster[6] = new Monster(imgMonster, (canvas.width/2) - 35, 380, 0, 530, 380, 0, 1.5);
 	monster[7] = new Monster(imgMonster, 330, 490, 460, 0, 300, 1.5, 0);
-	monster[8] = new Monster(imgBoss, (canvas.width/2)-200, (canvas.height/2) + 20, canvas.width - 30, canvas.height, 0, 4, 4);
+	monster[8] = new Monster(imgBoss, (canvas.width/2)-200, (canvas.height/2) + 20, canvas.width - 90, canvas.height - 70, 0, 4, 4);
 }
 //draw monster
 function drawMonster() {
