@@ -1,13 +1,15 @@
 /*@media screen call responsive*/
 @media screen and (max-width: 768px) {
 #header,
-#banner {
+#banner,
+#footer,
+#copyright {
+	min-width:0;
 	float:none;
 }
 .show-pc { display: none !important; }
 .show-sp { display: block !important; }
-.inner,
-.header_left {
+.inner {
 	height:auto;
 	margin:0 auto;
 	padding:0 2%;
@@ -15,24 +17,32 @@
 	width:94%;
 	min-width:0;
 }
-#index {
-	width:98%;
-	top: 240px;
+.header_left {
+	height:auto;
+	text-align:center;
+	width:80%;
+	float: left;
+}
+#header .inner {
+	width:77.6%;
+	margin:0 0 0 59px;
 }
 #banner img {
+	float: none;
+	height: auto;
 	margin:0 auto;
 	text-align:center;
 	width:96%;
 	min-width:0;
 }
 #index {
-	position: absolute;
-	top: 120px;
+	width:96%;
+	margin-top: -200px;
 }
 .login {
-	width: 98%;
+	width: 100%;
 	background: #f1f1f1;
-	padding-top: 130px;
+	padding-top: 140px;
 	float: none;
 }
 .button_1 {
@@ -59,7 +69,7 @@
 #mid .box_1 {
 	width: 46.7%;
 	display:inline-block;
-	margin:5px 10px 5px 0px;
+	margin:1.6% 3.3% 1.6% 0%;
 }
 .mr_sp {
 	margin-right: 0px !important;
@@ -86,12 +96,18 @@
 	text-align:left;
 	float: left;
 }
+.img_8 {
+	width: 45%;
+}
+.img_10 {
+	width: 30%;
+}
 #mid .mid_right {
 	float:none;
 	margin: 0px auto;
 }
 #footer { 
-	margin-top:50px;
+	margin-top:80px;
 }
 #copyright {
 	width: 100%;

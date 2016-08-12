@@ -1,5 +1,17 @@
 //load
 $(document).ready(function() {
+	$(".menu_reveal").click(function() {
+		$("ul.subMenu").show();
+		$(".menu_close").show();
+	});
+	$(".menu_close").click(function() {
+		$("ul.subMenu").hide();
+		$(".menu_reveal").show();
+		$(".menu_close").hide();
+	});
+	ondragstart="return false;"
+   	ondrop="return false;"
+   	oncontextmenu="return false;"
 	var alt = 0;
 	startImg = $(".slide-img:first").attr("alt");
 	endImg = $(".slide-img:last").attr("alt");
