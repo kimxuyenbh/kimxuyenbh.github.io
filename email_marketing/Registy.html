@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,700' rel='stylesheet'>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kien Nhay - Email marketing</title>
+<meta name="description" content="Email Marketing">
+<link href="css/styles.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<!--contact -->
+
+<section class="contact section-spacing" id="Contact">
+  <div class="container">
+    <header class="text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="logo"> 
+            <!--logo--> 
+            <a href="index.html"><img src="img/logo.png" data-at2x="img/logo@2x.png" alt="site name"> </a> 
+            <!--logo end--> 
+          </div>
+        </div>
+      </div>
+      <h2>Sign up for free</h2>
+      <div class="col-md-8 col-sm-11 center-block"><h3>You can access all of our features without spending a cent. You only pay once you start sending campaigns. </h3>
+    </header>
+    <div class="row">
+      <div class="col-md-8 col-sm-11 center-block"> 
+        
+        <!--contact form-->
+        
+        <div class="contact-form-signup">
+          <form role="form" action="php/sign-up.php" method="post" id="contact-form-signup" class="contact-form">
+            <input type="text" class="slide-bottom form-control" name="name" id="name" placeholder="Full Name (required)" required>
+            <input type="text" class="slide-bottom form-control" name="companyname" id="companyname" placeholder="Company Name (required)" required>
+            <input type="email" class="slide-bottom form-control" name="email" id="email" placeholder="Email (required)" required>
+            <input type="password" class="slide-bottom form-control" name="password" id="password" placeholder="Password (required)" required>
+            <div class="text-center">
+              <button type="submit" class="slide-bottom btn btn-default submit-btn" id="submit-btn" value="CREAT MY ACCOUNT">CREAT MY ACCOUNT</button>
+            </div>
+            <label class="optin"><input type="checkbox" name="subscribe" />Yes, I want to receive free email marketing tips every month.</label>
+          </form>
+          
+          <!--contact form end-->
+          <div class="success-cf">
+            <p><i class='fa fa-envelope'></i>Thank You! Your account has been creative.</p>
+          </div>
+          <div class="error-cf">
+            <p><i class="fa fa-exclamation-triangle"></i>Something went wrong, try refreshing and submitting the form again.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--contact end--> 
+
+</body>
+</html>
